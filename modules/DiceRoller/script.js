@@ -5,10 +5,16 @@ function rollDice() {
 
   diceMin = document.getElementById("min").value;
   diceMax = document.getElementById("max").value;
+  diceFace = document.getElementById("dice").value;
   document.getElementById("diceStat").style.color = "white";
   document.getElementById("diceNumber").style.color = "white";
 
-  number = randomNumber(20);
+  if (diceFace <= diceMax) {
+    diceMax = diceFace;
+    document.getElementById("max").value = diceMax;
+  }
+
+  number = randomNumber(diceFace);
 
   document.getElementById("diceNumber").innerHTML = number;
   console.log(number);
