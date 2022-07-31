@@ -23,8 +23,8 @@ function rollDice() {
 
   if (number >= diceMax) {
     diceStatus = "Sucesso Extremo";
-    document.getElementById("diceStat").style.color = "cyan";
-    document.getElementById("diceNumber").style.color = "cyan";
+    document.getElementById("diceStat").style.color = "blueviolet";
+    document.getElementById("diceNumber").style.color = "blueviolet";
   } else if (number <= diceMin) {
     diceStatus = "Desastre";
     document.getElementById("diceStat").style.color = "red";

@@ -60,6 +60,14 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+#back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: var(--color-japa);
+    text-shadow: 0 0 5px;
+}
 
 #Japaneixxx {
     position: absolute;

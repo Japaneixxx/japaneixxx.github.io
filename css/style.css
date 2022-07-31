@@ -1,4 +1,4 @@
-* {
+#hub {
     padding: 25;
     text-align: center;
 }
@@ -60,6 +60,14 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
+#back{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: var(--color-japa);
+    text-shadow: 0 0 5px;
+}
 
 #Japaneixxx {
     position: absolute;
@@ -85,17 +93,26 @@ p {
     bottom: -42;
 }
 
-
-input{
-    width: 0;
-    height: 0;
-    visibility: hidden;
-}
 label{
     cursor: pointer;
     display: block;
     text-indent: -35;
     ;
+}
+
+        
+#resposta{
+    position: relative;
+    left: 14%;
+    float: left;
+}
+
+main{
+    display: inline-block;
+    position:absolute;
+    margin-top: 7%;
+    padding: 5px;
+    left: 38%;
 }
 
 /*
