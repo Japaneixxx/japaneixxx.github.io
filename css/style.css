@@ -115,6 +115,10 @@ main{
     left:50%;
 }
 
+#projects{
+    padding: 1.5%;
+}
+
 /*
 label::after{
     position: absolute;
