@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japaneixxx Diceroller</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css">
+</head>
+
+<body data-theme="dark">
+
+    <div>
+        <div>
+            <div style="float: left; padding-left: 18%">Dado</div>
+            <div style="float: left; padding-left: 13%; color: red; text-shadow: 0 0 10px red;">Desastre</div>
+            <div style="color: blueviolet; text-shadow: 0 0 10px blueviolet;">Extremo</div>
+            <input style="width: 10%;" type="text" id="dice" placeholder="Faces" value="20" />
+            <input type="text" id="min" placeholder="Desastre" value="1" />
+            <button id="rollDice" onclick="rollDice()">Roll</button>
+            <input type="text" id="max" placeholder="Extremo" value="20" />
+        </div><br> <br>
+
+        <span id="diceNumber"></span>
+        <br>
+        <span id="diceStat"></span>
+
+    </div>
+    <a href="/modules/" id="back">Voltar</a>
+    <a href="https://japaneixxx.tk" id="Japaneixxx"> Japaneixxx</a>
+</body>
+
+</html>
